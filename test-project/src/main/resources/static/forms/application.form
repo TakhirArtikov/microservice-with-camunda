@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "First Name",
+      "type": "textfield",
+      "id": "Field_0gjao6p",
+      "key": "firstName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Last Name",
+      "type": "textfield",
+      "id": "Field_0128op6",
+      "key": "lastName",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "studentDetails"
+}

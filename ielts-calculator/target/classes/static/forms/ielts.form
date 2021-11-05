@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Listening",
+      "type": "textfield",
+      "id": "Field_1xqq0xn",
+      "key": "listening",
+      "validate": {
+        "minLength": 3,
+        "maxLength": 3,
+        "required": true
+      }
+    },
+    {
+      "label": "Reading",
+      "type": "textfield",
+      "id": "Field_1eqrs30",
+      "key": "reading",
+      "validate": {
+        "minLength": 3,
+        "maxLength": 3,
+        "required": true
+      }
+    },
+    {
+      "label": "Writing",
+      "type": "textfield",
+      "id": "Field_1ykd7tp",
+      "key": "writing",
+      "validate": {
+        "minLength": 3,
+        "maxLength": 3,
+        "required": true
+      }
+    },
+    {
+      "label": "Speaking",
+      "type": "textfield",
+      "id": "Field_1s4pyog",
+      "key": "speaking",
+      "validate": {
+        "minLength": 3,
+        "maxLength": 3,
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0kv0e5b"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Maths/Physics",
+          "value": "Maths/Physics"
+        },
+        {
+          "label": "History/Law",
+          "value": "History/Law"
+        },
+        {
+          "label": "Biology/Zoology",
+          "value": "Biology/Zoology"
+        }
+      ],
+      "label": "Exam Subject",
+      "type": "select",
+      "id": "Field_1uclmgv",
+      "key": "subject"
+    },
+    {
+      "label": "Exam Score",
+      "type": "number",
+      "id": "Field_16pjasx",
+      "key": "score",
+      "validate": {
+        "min": 0,
+        "max": 100,
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "examDetails"
+}
